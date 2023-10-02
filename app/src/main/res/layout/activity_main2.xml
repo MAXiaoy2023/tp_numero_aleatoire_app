@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:id="@+id/li"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/guess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:hint="Saisir un nombre"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vérifier"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/msg_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:text=""
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/msg_final_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:text=""
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_rebegin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
